@@ -1,22 +1,22 @@
-VAUTECH SOLUTIONS — AI INTERNSHIP REPORT 
-Task 1: Bias–Variance Understanding & Model Behavior 
+## VAUTECH SOLUTIONS — AI INTERNSHIP REPORT 
+## Task 1: Bias–Variance Understanding & Model Behavior 
  
  
-Project Title:  Bias–Variance Analysis using Polynomial Regression 
+**Project Title:**  Bias–Variance Analysis using Polynomial Regression 
 
-Intern Name: Anurag Rathore 
+**Intern Name:** Anurag Rathore 
 
-Intern ID: VT26ML003 
+**Intern ID:** VT26ML003 
 
-Department: Artificial Intelligence & Data Science 
+**Department:** Artificial Intelligence & Data Science 
 
-Mentor: Vishal Ramkumar Rajbhar 
+**Mentor:** Vishal Ramkumar Rajbhar 
 
-Company: Vautech Solutions IT Solutions 
+**Company:** Vautech Solutions IT Solutions 
 
-Topic Name :Bias–Variance Understanding & Model Behavior 
+**Topic Name:** Bias–Variance Understanding & Model Behavior 
  
-Topic Description 
+## Topic Description 
 
 In machine learning, The bias–variance concept is fundamental to understanding 
 model behaviour in machine learning. Bias arises from overly simple models 
@@ -29,9 +29,7 @@ performance. A well-balanced model minimizes both bias and variance,
 enabling accurate predictions on unseen data and improving overall learning 
 efficiency. 
  
- 
- 
-Abstract 
+## Abstract 
 
 Understanding model behavior is a critical aspect of machine learning, 
 particularly in relation to the bias–variance tradeoff. This project focuses on 
@@ -45,7 +43,7 @@ and reliable predictions. The study provides a clear and practical understanding
 of bias and variance, helping in the development of efficient and robust machine 
 learning models.
 
-Introduction 
+## Introduction 
 
 Machine Learning is a field of Artificial Intelligence that enables systems to 
 learn patterns from data and make predictions without being explicitly 
@@ -58,35 +56,35 @@ in poor generalization.
 This project focuses on understanding bias, variance, underfitting, overfitting, 
 and analysing training versus testing performance. 
  
-Problem Statement 
+## Problem Statement 
 
 Many machine learning models fail to perform well on new data due to improper 
 model selection and poor generalization. High bias models are too simple to 
 capture data patterns, while high variance models learn noise instead of 
 meaningful patterns. 
 The problem addressed in this project is: 
- To analyse how bias and variance affect model behaviour 
- To understand underfitting and overfitting 
- To study training and testing error patterns 
- To identify symptoms of poor generalization 
+- To analyse how bias and variance affect model behaviour 
+- To understand underfitting and overfitting 
+- To study training and testing error patterns 
+- To identify symptoms of poor generalization 
  
- Objectives 
- Study the bias–variance trade-off 
- Understand underfitting and overfitting 
- Analyse training vs testing performance 
- Identify symptoms of poor generalization 
+ ## Objectives 
+- Study the bias–variance trade-off 
+- Understand underfitting and overfitting 
+- Analyse training vs testing performance 
+- Identify symptoms of poor generalization 
  
-Dataset Description
+## Dataset Description
 
 The project uses a synthetic or simple numerical dataset where: 
- Input features represent independent variables 
- Output values represent target variables 
+- Input features represent independent variables 
+- Output values represent target variables 
 The dataset is divided into: 
- Training Data – used to train the model 
- Testing Data – used to evaluate model performance 
+- Training Data – used to train the model 
+- Testing Data – used to evaluate model performance 
 This separation helps in understanding how well the model generalizes. 
  
-Methodology
+## Methodology
 
 1. Load and preprocess the dataset 
 2. Split data into training and testing sets 
@@ -95,37 +93,37 @@ Methodology
 5. Compare results to observe underfitting and overfitting 
 6. Analyse bias–variance behaviour 
  
-Bias–Variance Trade-off 
+## Bias–Variance Trade-off 
 
- Bias refers to error caused by overly simple assumptions in the learning 
+- Bias refers to error caused by overly simple assumptions in the learning 
 algorithm. 
- Variance refers to error caused by excessive sensitivity to training data. 
+- Variance refers to error caused by excessive sensitivity to training data. 
 A good model maintains a balance between bias and variance to minimize total 
 error. 
  
-Underfitting and Overfitting 
+## Underfitting and Overfitting 
 
- Underfitting 
-o Model is too simple 
-o High bias, low variance 
-o Poor performance on both training and testing data 
- Overfitting 
-o Model is too complex 
-o Low bias, high variance 
-o Very good training performance but poor testing performance 
-  
- 
- Training vs Testing Performance Analysis 
+- Underfitting 
+- Model is too simple 
+- High bias, low variance 
+- Poor performance on both training and testing data 
+- Overfitting 
+- Model is too complex 
+- Low bias, high variance 
+- Very good training performance but poor testing performance 
+  
 
- Training performance shows how well the model learns from known data 
- Testing performance shows how well the model generalizes to unseen 
+## Training vs Testing Performance Analysis 
+
+- Training performance shows how well the model learns from known data 
+- Testing performance shows how well the model generalizes to unseen 
 data 
- A large gap between training and testing accuracy indicates overfitting 
+- A large gap between training and testing accuracy indicates overfitting 
  
  
-Symptoms of Poor Generalization 
+## Symptoms of Poor Generalization 
 
- High accuracy on training data but low accuracy on test data 
- Large difference between training and testing error 
- Model predictions change drastically with small data variations 
- Poor performance on real-world data 
+- High accuracy on training data but low accuracy on test data 
+- Large difference between training and testing error 
+- Model predictions change drastically with small data variations 
+- Poor performance on real-world data 
